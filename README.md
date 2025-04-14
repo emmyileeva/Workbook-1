@@ -43,6 +43,13 @@ This folder contains my Java exercises from Workbook 1.
 - Added support for “loaded” sandwiches with additional charges
 - Great for practicing `if/else`, user input, math operations, and formatting
 
+### ✅ RentalCarCalculator
+- CLI app for calculating the cost of a rental car
+- Prompts user for pickup date, number of rental days, and add-on features
+- Add-on features include GPS, toll tag, and roadside assistance
+- Applies a 30% surcharge for drivers under 25
+- Displays a full cost breakdown, including options and underage fees
+
 ---
 
 ## ✨ What I Learned
@@ -53,5 +60,6 @@ This folder contains my Java exercises from Workbook 1.
 - How to build and interact with objects using custom classes and methods
 - How to simulate real-world scenarios using conditionals, methods, and attributes
 - How to refactor code into reusable methods to improve readability and structure
+
 
 
