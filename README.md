@@ -25,6 +25,16 @@ This folder contains my Java exercises from Workbook 1.
 - Uses `System.out.println()` to display each item clearly
 - Great for practicing `main()` structure and output formatting
 
+### ✅ DBZ Saiyan Battle Project
+- Create a `Saiyan` class with stats like `powerLevel`, `ki`, and `superSaiyan` status
+- Includes methods like:
+  - `train()` to increase power and ki
+  - `transform()` to go Super Saiyan (if ki is high enough)
+  - `blast()` to attack other Saiyans, with ki cost
+  - `rest()` to recover ki after battle
+  - `compareStrength()` to see who's stronger using `Math.max()`
+- Fun, game-style logic for exploring classes, methods, and object interaction in Java
+
 ---
 
 ## ✨ What I Learned
@@ -32,4 +42,5 @@ This folder contains my Java exercises from Workbook 1.
 - How to use `if`, `else if`, and `else` for decision making
 - How to format and organize Java code
 - How to use Java's math functions and write clean console output
-
+- How to build and interact with objects using custom classes and methods
+- How to simulate real-world scenarios using conditionals, methods, and attributes
