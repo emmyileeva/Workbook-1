@@ -36,6 +36,13 @@ This folder contains my Java exercises from Workbook 1.
   - `compareStrength()` to see who's stronger using `Math.max()`
 - Fun, game-style logic for exploring classes, methods, and object interaction in Java
 
+### ✅ SandwichShop
+- Console-based point-of-sale app for ordering sandwiches
+- Prompts user to choose sandwich size and enter their age
+- Applies a discount for students (10%) and seniors (20%)
+- Added support for “loaded” sandwiches with additional charges
+- Great for practicing `if/else`, user input, math operations, and formatting
+
 ---
 
 ## ✨ What I Learned
@@ -46,4 +53,5 @@ This folder contains my Java exercises from Workbook 1.
 - How to build and interact with objects using custom classes and methods
 - How to simulate real-world scenarios using conditionals, methods, and attributes
 - How to refactor code into reusable methods to improve readability and structure
+
 
