@@ -19,6 +19,7 @@ This folder contains my Java exercises from Workbook 1.
 - Asks for employee name, hours worked, and pay rate
 - Calculates gross pay
 - Bonus: Includes overtime pay calculation for hours over 40
+- Now refactored into modular methods for input, calculation, and output
 
 ### ✅ ShoppingList
 - A simple console app that prints a list of at least 10 shopping items
@@ -44,3 +45,5 @@ This folder contains my Java exercises from Workbook 1.
 - How to use Java's math functions and write clean console output
 - How to build and interact with objects using custom classes and methods
 - How to simulate real-world scenarios using conditionals, methods, and attributes
+- How to refactor code into reusable methods to improve readability and structure
+
