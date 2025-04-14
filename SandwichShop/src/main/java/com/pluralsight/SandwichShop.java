@@ -9,6 +9,11 @@ public class SandwichShop {
         System.out.println("Choose sandwich size (1 = Regular, 2 = Large): ");
         int size = input.nextInt();
 
+        // Loaded?
+        System.out.println("Would you like it loaded? (yes/no): ");
+        input.nextLine();
+        String loaded = input.nextLine();
+
         // Get user's age
         System.out.println("Enter your age: ");
         int age = input.nextInt();
@@ -22,6 +27,15 @@ public class SandwichShop {
         } else {
             System.out.println("No size selected.");
             return;
+        }
+
+        // Add charge for loaded
+        if (loaded.equalsIgnoreCase("yes")) {
+            if (size == 1) {
+                basePrice += 1.00;
+            } else if (size == 2) {
+                basePrice += 1.75;
+            }
         }
 
         // Apply discount
